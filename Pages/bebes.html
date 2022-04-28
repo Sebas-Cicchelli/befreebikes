@@ -4,56 +4,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
     <link rel="stylesheet" href="../CSS/style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
         <div class="container-header">
-            <p class="logo">Be Free Bikes</p>
+            <p class="logo">BeFreeBikes</p>
             <nav>
                 <a href="../index.html">Home</a>
                 <a href="./algunosModelos.html">Algunos Modelos</a>
                 <a href="./bicicletas.html">Bicicletas</a>
                 <a href="#">Bebes</a>
-                <a href="./Nosotros.html">Nosotros</a>
+                <a href="./Nosotros.html">Sobre Nosotros</a>
+                <a href="#contactanos">Contactanos</a>
             </nav>
         </div>
     </header>
     
-    <div class="cards-bebes">
-        <div class="card">
-            <img src="../bebes/coche1.jpg" alt="">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 img-thumbnail">
+            <img class="img-fluid" src="../bebes/coche1.jpg" alt="">
             <h4>Cochesito</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed perspiciatis dolorem quae neque repudiandae, corrupti minus nisi qui eos repellat, facilis maxime culpa perferendis cumque iure labore ratione facere veniam?</p>
             <a href="#">Info</a>
         </div>
-        <div class="card">
-            <img src="../bebes/coche2.jpg" alt="">
+        <div class="col-lg-6 col-md-6 col-sm-12 img-thumbnail">
+            <img class="img-fluid" src="../bebes/coche2.jpg" alt="">
             <h4>Cochesito</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed perspiciatis dolorem quae neque repudiandae, corrupti minus nisi qui eos repellat, facilis maxime culpa perferendis cumque iure labore ratione facere veniam?</p>
             <a href="#">Info</a>
         </div>
-        <div class="card">
-            <img src="../bebes/coche3.jpg" alt="">
+        <div class="col-lg-6 col-md-6 col-sm-12 img-thumbnail">
+            <img class="img-fluid" src="../bebes/coche3.jpg" alt="">
             <h4>Cochesito</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed perspiciatis dolorem quae neque repudiandae, corrupti minus nisi qui eos repellat, facilis maxime culpa perferendis cumque iure labore ratione facere veniam?</p>
             <a href="#">Info</a>
         </div>
-        <div class="card">
-            <img src="../bebes/coche4.jpg" alt="">
+        <div class="col-lg-6 col-md-6 col-sm-12 img-thumbnail">
+            <img class="img-fluid" src="../bebes/coche4.jpg" alt="">
             <h4>Cochesito</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed perspiciatis dolorem quae neque repudiandae, corrupti minus nisi qui eos repellat, facilis maxime culpa perferendis cumque iure labore ratione facere veniam?</p>
             <a href="#">Info</a>
         </div>
-        <div class="card">
-            <img src="../bebes/coche1.jpg" alt="">
+        <div class="col-lg-6 col-md-6 col-sm-12" img-thumbnail>
+            <img class="img-fluid" src="../bebes/coche1.jpg" alt="">
             <h4>Cochesito</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed perspiciatis dolorem quae neque repudiandae, corrupti minus nisi qui eos repellat, facilis maxime culpa perferendis cumque iure labore ratione facere veniam?</p>
             <a href="#">Info</a>
         </div>
-        <div class="card">
-            <img src="../bebes/coche2.jpg" alt="">
+        <div class="col-lg-6 col-md-6 col-sm-12" img-thumbnail>
+            <img class="img-fluid" src="../bebes/coche2.jpg" alt="">
             <h4>Cochesito</h4>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed perspiciatis dolorem quae neque repudiandae, corrupti minus nisi qui eos repellat, facilis maxime culpa perferendis cumque iure labore ratione facere veniam?</p>
             <a href="#">Info</a>
@@ -69,10 +71,22 @@
         <button>Subite ya!</button>
     </section>
     
-    <footer>
+    <div class="mb-3" id="contactanos">
+        <label for="exampleFormControlInput1" class="form-label">Email</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ingresar@email.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Dejanos tus Comentarios</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        <button>Enviar</button>
+      </div>
+            
         <div class="container">
             <p>@Hecho por Sebas</p>
         </div>
     </footer>
+    <script src="./JS/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
+ 
