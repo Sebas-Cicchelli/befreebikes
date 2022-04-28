@@ -417,7 +417,7 @@ footer .container{
             0deg,
             rgba(0,0,0,0.5),
             rgba(0,0,0,0.5)
-        ), url(../biciHome/imagen4.jpg);
+        ), url(../imgPortadas/imagen4.jpg);
         background-size: cover;
         background-position: right;
         height: 650px;
@@ -488,9 +488,17 @@ footer .container{
 }
 .estilo-nosotros{
     background-image: url(../biciHome/puesta\ de\ sol.webp);
+    background-position: center center;
+    background-size: cover;
+    
 
 }
-.estilo-nosotros p{
+div .estilo-nosotros p{
     font-size: 20px;
-    text-align: justify;
+    padding-top: 100px;
+    color: cornsilk;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
