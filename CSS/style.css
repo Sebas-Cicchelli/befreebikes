@@ -26,6 +26,8 @@ body{
     flex-wrap: wrap;
 }
 
+
+
 h1{font-size: 60px;}
 h2{font-size: 40px;}
 h3{font-size: 30px;}
@@ -383,6 +385,7 @@ footer .container{
     header{
         position: fixed;
         width: 100%;
+        margin-block-end: 60px;
     }
     
     header .container-header{
@@ -425,6 +428,7 @@ footer .container{
         background-position: right;
         height: 650px;
         width: 650px;
+        position: fixed;
     }
 }
 
@@ -450,6 +454,9 @@ footer .container{
 }
 /* ###################### CARDS HTML BEBES ##################################### */
 
+.paddingMain{
+    padding-top: 200px;
+}
 
 /* .container-fluid .row{
     width: 100%;
@@ -490,12 +497,12 @@ footer .container{
     font-weight: 500;
     text-decoration: none;
     color:blue;
-} */ */
+} */ 
 
 /* ###### HTML NOSOTROS ###### */
 
 .estilo-nosotros{
-    background-image: url(../biciHome/puesta\ de\ sol.webp);
+    background-image: url(../imgPortadas/puesta\ de\ sol.webp);
     background-position: center center;
     background-size: cover;
     
