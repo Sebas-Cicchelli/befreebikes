@@ -12,6 +12,17 @@ body{
     font-family:sans-serif;
     margin: 0;
 }
+/* ###### PSEUDO CLASES :active/linked:/visited:/hover:###### */
+.enlace:active{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+.enlace:visited{
+    color: rgb(167, 35, 167);
+}
+/* ###### FIN PSEUDO CLASES ###### */
+
 .fondoBebes{
     background-color: cornflowerblue;
 }
