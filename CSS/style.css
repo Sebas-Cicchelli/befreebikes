@@ -23,9 +23,9 @@ body{
 }
 /* ###### FIN PSEUDO CLASES ###### */
 
-.fondoBebes{
+/* .fondoBebes{
     background-color: cornflowerblue;
-}
+} */
 /* FLEX TARJETAS HOME */
 .container .flexcontainer{
     display: flex;
