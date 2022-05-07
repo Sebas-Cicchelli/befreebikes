@@ -425,10 +425,7 @@ footer .container{
         justify-content: center;
     }
 
-    /* .somos-befreebikes h2{
-        margin-top: 0px;
-    } */
-
+    
     .somos-befreebikes .img-continer{
         background-image: linear-gradient(
             0deg,
@@ -472,49 +469,7 @@ footer .container{
 }
 
 
-/* .container-fluid .row{
-    width: 100%;
-    max-width: 1200px;
-    height: 430;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-}
-.container-fluid .row{ 
-    width: 330px;
-    height: 430px;
-    border-radius: 8px;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    overflow: hidden;
-    margin: 20px;
-    text-align: center;
-    transition: all 0.25s;
-}
-.container-fluid .row:hover{
-    transform:scale(105%);
-    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
-}
-.container-fluid .row  img{
-    width:auto;
-    height: 220px;
-}
-.container-fluid .row  h4{
-    font-weight: 600;
-}
-.container-fluid .row  p{
-    padding: 0 1rem;
-    font-size: 16px;
-    font-weight: 300;
-}
-.container-fluid .row {
-    font-weight: 500;
-    text-decoration: none;
-    color:blue;
-} */ 
-
-/* ###### HTML NOSOTROS ###### */
-
+/* HTML Nosotros */
 .estilo-nosotros{
     background-image: url(../imgPortadas/PuestaDeSol.webp);
     background-position: center center;

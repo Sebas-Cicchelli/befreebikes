@@ -1,3 +1,23 @@
+/*Mientras el contenido de $ sea menor o igual a through */
+h1 {
+  font: size 16px; }
+
+h2 {
+  font: size 32px; }
+
+h3 {
+  font: size 48px; }
+
+h4 {
+  font: size 64px; }
+
+h5 {
+  font: size 80px; }
+
+h6 {
+  font: size 96px; }
+
+/*a la variable i se le asigna el valor 1 con from y con thorugh lre decimos hasta dnd puede llegar ese valor, pq si lo supera todo vuelve a comenzar*/
 #algunos-modelos .tarjetas1 {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../biciHome/imagen1.jpg);
   background-position: center center;

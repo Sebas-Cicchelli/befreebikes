@@ -1,0 +1,18 @@
+/*funcionamiento de @each */
+
+.blue{
+    color:blue;
+}
+.yelow{
+    color: yellow;
+}
+.black{
+    color: black;
+}
+
+@each $color in blue, yellow, black {
+    .#{$color}{
+        color:#{$color};
+    }
+}
+/*Aca el $ primero se le asigna blue dsps yellow y dsps black y ahi termina pq la condicion de corte es "Termino de recorrer la lista"*/
