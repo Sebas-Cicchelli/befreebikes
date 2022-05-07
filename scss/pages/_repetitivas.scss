@@ -1,0 +1,8 @@
+/*Mientras el contenido de $ sea menor o igual a through */
+
+@for $i from 1 through 6{
+    h#{$i}{
+        font: size 16px * $i;
+    }
+}
+/*a la variable i se le asigna el valor 1 con from y con thorugh lre decimos hasta dnd puede llegar ese valor, pq si lo supera todo vuelve a comenzar*/
