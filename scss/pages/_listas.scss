@@ -16,3 +16,14 @@
     }
 }
 /*Aca el $ primero se le asigna blue dsps yellow y dsps black y ahi termina pq la condicion de corte es "Termino de recorrer la lista"*/
+/*ejemplo del profe Gaston*/
+
+$lista:(10px,20px,50px);
+
+    @each $var in $lista {
+        .text-#{$var}{
+            font-size: $var;
+        }
+    }
+
+
