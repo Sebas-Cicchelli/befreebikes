@@ -6,6 +6,9 @@
 @import "pages/home";
 @import "pages/bebes";
 
+/*Los siguiente ejercicios estan tomados del css Original*/
+
+
 /*Aprendiendo a anidar Lista*/
 header{
     background-color: rgb(245, 245, 245);
@@ -30,5 +33,34 @@ header{
     }
 }
 
+/*Aprendiendo Mixin*/
+
+#algunos-modelos .tarjetas1{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(../biciHome/imagen1.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px blue;
+    @include formatoTarjeta1()
+}
+
+
+@mixin formatoTarjeta1 {
+    // ,url(../biciHome/imagen1.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 8px blue;
+ /*Aca estoy tomando el contenido de .tarjetas1*/
+ /*menos la url de la imagen y el gardient luego tendria que poner un @include en la clase .tarjeta1*/   
+}
   
-    
