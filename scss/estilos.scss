@@ -1,15 +1,18 @@
 
-/*Aprendiendo a importar clases*/
+/* Aprendiendo a importar clases */
 @import "pages/repetitivas";
 @import "pages/tarjetasIndex";
 @import "pages/estilosNosotros";
 @import "pages/home";
 @import "pages/bebes";
 
-/*Los siguiente ejercicios estan tomados del css Original*/
+/*Los siguiente ejercicios estan tomados del css Original*
 
 
-/*Aprendiendo a anidar Lista*/
+
+
+/* Aprendiendo a anidar Lista */
+
 header{
     background-color: rgb(245, 245, 245);
     div{
@@ -53,7 +56,7 @@ header{
 
 
 @mixin formatoTarjeta1 {
-    // ,url(../biciHome/imagen1.jpg);
+    /*,url(../biciHome/imagen1.jpg);*/
     background-position: center center;
     background-size: cover;
     padding: 50px;
@@ -63,4 +66,27 @@ header{
  /*Aca estoy tomando el contenido de .tarjetas1*/
  /*menos la url de la imagen y el gardient luego tendria que poner un @include en la clase .tarjeta1*/   
 }
+
+/*Ej: Mixin para dar formato a una imagen*/
+
+@mixin formatoimagen($ancho, $alto){
+    width: $ancho;
+    height: $alto;    
+}
+
+img{
+    border-radius: 15px;
+    @include formatoimagen(200px, 150px);
+}
   
+/*Aprendiendo extended*/
+
+.container .flexcontainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#algunos-modelos{
+    @extend .flexcontainer
+}
+
