@@ -488,3 +488,8 @@ div .estilo-nosotros p{
 
 }
 /* ###### FIN HTML NOSOTROS ###### */
+
+/* ###### Bordes de Tabla ###### */
+.tabla tr, th, td{
+    border: 1px, solid, black;
+}
