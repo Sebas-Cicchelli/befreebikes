@@ -474,7 +474,8 @@ footer .container{
 
 /* HTML Nosotros */
 .estilo-nosotros{
-    background-image: url(../imgPortadas/PuestaDeSol.webp);
+    
+    background-image: linear-gradient(to right,rgb(0 0 0/.5),rgb(0 0 0/.5)),url(../imgPortadas/PuestaDeSol.webp);
     background-position: center center;
     background-size: cover;
     
@@ -482,9 +483,10 @@ footer .container{
 }
 
 div .estilo-nosotros p{
-    font-size: 20px;
+    font-size: 40px;
     padding-top: 100px;
-    color: cornsilk;
+    text-transform: uppercase;
+    color:white;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
