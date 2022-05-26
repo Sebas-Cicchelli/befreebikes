@@ -12,6 +12,9 @@ body{
     font-family:sans-serif;
     margin: 0;
 }
+.fondoBody{
+    background-color: dimgrey;
+}
 /* ###### PSEUDO CLASES :active/linked:/visited:/hover:###### */
 .enlace:active{
     color: white;
@@ -201,7 +204,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(../biciHome/imagen1.jpg);
+    ,url(../biciHome/allterra.jpg);
     background-position: center center;
     background-size: cover;
     padding: 50px;
@@ -215,7 +218,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(../biciHome/imagen2.jpg); 
+    ,url(../biciHome/safari.jpg); 
     background-position: center center;
     background-size: cover;
     padding: 50px;
@@ -229,7 +232,7 @@ header a:hover{
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url(../biciHome/imagen3.jpg); 
+    ,url(../biciHome/alltrack.jpg); 
     background-position: center center;
     background-size: cover;
     padding: 50px;
@@ -490,6 +493,7 @@ div .estilo-nosotros p{
 /* ###### FIN HTML NOSOTROS ###### */
 
 /* ###### Bordes de Tabla ###### */
-.tabla tr, th, td{
-    border: 1px, solid, black;
+
+.ModeloAllTerra{
+    background-color: aqua;
 }
